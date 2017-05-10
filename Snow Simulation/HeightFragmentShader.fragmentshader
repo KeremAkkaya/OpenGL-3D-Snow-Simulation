@@ -1,0 +1,17 @@
+#version 330 core
+in float height;
+// Ouput data
+out vec3 color;
+
+uniform vec3 userColour;
+
+void main()
+{
+
+	// Output color 
+	color = userColour;
+	color.x = height / 2;
+	color.y = height / 2;
+	color.z = height / 2;
+
+}
