@@ -1,2 +1,17 @@
-﻿  Project1.vcxproj -> C:\Users\hardcoregandhi\Desktop\Snow Simulation Final Build\x64\Debug\Snow Simulation.exe
-  Project1.vcxproj -> C:\Users\hardcoregandhi\Desktop\Snow Simulation Final Build\x64\Debug\Snow Simulation.pdb (Partial PDB)
+﻿  main.cpp
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\controls.h(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\controls.h(190): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\shader.h(63): warning C4101: 'infoLog': unreferenced local variable
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\shader.h(62): warning C4101: 'success': unreferenced local variable
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\accumulation.h(76): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(257): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(258): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(259): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(405): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(432): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(466): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(467): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(468): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+f:\projects\uni 3rd year\opengl-3d-snow-simulation\snow simulation\main.cpp(507): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Project1.vcxproj -> F:\Projects\Uni 3rd Year\OpenGL-3D-Snow-Simulation\x64\Debug\Snow Simulation.exe
+  Project1.vcxproj -> F:\Projects\Uni 3rd Year\OpenGL-3D-Snow-Simulation\x64\Debug\Snow Simulation.pdb (Partial PDB)

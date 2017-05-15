@@ -171,7 +171,7 @@ int main()
 
 	// Create a tweak bar
 	bar = TwNewBar("TweakBar");
-	TwDefine("TweakBar size='250 350'"); // resize bar
+	TwDefine("TweakBar size='250 400'"); // resize bar
 
 	// Add 'speed' to 'bar': it is a modifable (RW) variable of type TW_TYPE_DOUBLE. Its key shortcuts are [s] and [S].
 	TwAddVarRW(bar, "WindSpeed", TW_TYPE_DOUBLE, &windSpeed, "");
@@ -188,8 +188,9 @@ int main()
 	TwAddButton(bar, "Move W,A,S,D", NULL, NULL, "");
 	TwAddButton(bar, "Height Q,E", NULL, NULL, "");
 	TwAddButton(bar, "Deformation Marker", NULL, NULL, "");
-	TwAddButton(bar, "    NUMPAD 2,4,6,8", NULL, NULL, "");
-	TwAddButton(bar, "    Height 7,9", NULL, NULL, "");
+	TwAddButton(bar, "    Move ARROW KEYS", NULL, NULL, "");
+	TwAddButton(bar, "    Height R_CTRL,R_SHIFT", NULL, NULL, "");
+	TwAddButton(bar, "    Size -,=", NULL, NULL, "");
 	TwAddButton(bar, "Snow 1/2, On/Off", NULL, NULL, "");
 	TwAddButton(bar, "Melt 3/4, On/Off", NULL, NULL, "");
 	TwAddButton(bar, "Grid 9/0, On/Off", NULL, NULL, "");

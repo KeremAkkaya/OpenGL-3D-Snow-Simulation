@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>packages\AntTweakBar\include;$(IncludePath)</IncludePath>
-    <LibraryPath>packages\AntTweakBar\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)packages\AntTweakBar\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)packages\AntTweakBar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>packages\AntTweakBar\include;$(IncludePath)</IncludePath>
@@ -83,8 +83,8 @@
     <LibraryPath>$(SolutionDir)packages\AntTweakBar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>packages\AntTweakBar\include;$(IncludePath)</IncludePath>
-    <LibraryPath>packages\AntTweakBar\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)packages\AntTweakBar\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)packages\AntTweakBar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
