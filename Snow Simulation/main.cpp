@@ -40,7 +40,7 @@ using namespace glm;
 #include "Deformation.h"
 
 GLFWwindow* window; // (In the accompanying source code, this variable is global)
-unsigned char * textureDataBuffer;
+TwBar *bar;         // Pointer to a tweak bar
 
 double calcFPS(double timeInterval = 1.0, std::string windowTitle = "NONE") //http://r3dux.org/2012/07/a-simple-glfw-fps-counter/
 {
@@ -105,7 +105,7 @@ double calcFPS(double timeInterval = 1.0, std::string windowTitle = "NONE") //ht
 	return fps;
 }
 
-TwBar *bar;         // Pointer to a tweak bar
+
 
 int main()
 {
